@@ -105,7 +105,6 @@ inv_gross_amt = c(seq(5,15000, 50), seq(50,25000, 150),seq(500,50000, 500));inv_
 
 
 
-
 INV_ID = seq(100,((n_invs*1)+100),1)[1:n_invs]
 INV_STS = sample(inv_status, n_invs,inv_status_probs, replace = T)
 DOC_STS = sample(inv_doc_status, n_invs,inv_doc_status_probs, replace = T)
